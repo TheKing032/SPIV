@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_map" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="639dp">
+
+        <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="69dp"
+                app:srcCompat="@drawable/objektg3"
+                android:id="@+id/objektG3"
+                android:layout_marginLeft="5px"
+                android:layout_marginStart="5px"
+                android:layout_marginTop="280px" />
+
+        <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="211dp"
+                app:srcCompat="@drawable/objktg2"
+                android:id="@+id/imageButton6"
+                android:layout_marginTop="460px"
+                android:layout_marginLeft="5px"
+                android:layout_marginStart="5px" />
+
+        <ImageButton
+                android:layout_width="209dp"
+                android:layout_height="63dp"
+                app:srcCompat="@drawable/objg"
+                android:id="@+id/imageButton7"
+                android:layout_marginTop="865px"
+                android:layout_marginLeft="355px"
+                android:layout_marginStart="355px" />
+
+        <ImageButton
+                android:layout_width="86dp"
+                android:layout_height="123dp"
+                app:srcCompat="@drawable/objektf"
+                android:id="@+id/imageButton8"
+                android:layout_marginLeft="775px"
+                android:layout_marginStart="775px"
+                android:layout_marginTop="530px" />
+
+        <ImageButton
+                android:layout_width="126dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/objekth"
+                android:id="@+id/imageButton9"
+                android:layout_marginLeft="435px"
+                android:layout_marginStart="435px"
+                android:layout_marginTop="530px" />
+
+        <ImageButton
+                android:layout_width="167dp"
+                android:layout_height="62dp"
+                app:srcCompat="@drawable/objekte"
+                android:id="@+id/imageButton10"
+                android:layout_marginLeft="435px"
+                android:layout_marginStart="435px"
+                android:layout_marginTop="360px" />
+
+        <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="123dp"
+                app:srcCompat="@drawable/objektc"
+                android:id="@+id/imageButton12"
+                android:layout_marginLeft="875px"
+                android:layout_marginStart="875px"
+                android:layout_marginTop="195px" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                app:srcCompat="@drawable/agenda"
+                android:id="@+id/imageView4"
+                android:layout_marginTop="1100px" />
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

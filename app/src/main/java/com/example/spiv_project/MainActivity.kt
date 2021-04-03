@@ -1,22 +1,21 @@
 package com.example.spiv_project
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.content.DialogInterface
-import kotlinx.android.synthetic.main.activity_main.*
-import android.app.AlertDialog
-import android.widget.EditText
-import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val num1 = findViewById<ImageButton>(R.id.profil)
-        num1.setOnClickListener{
-            Toast.makeText(applicationContext, "HENLOOO PROFILE", Toast.LENGTH_SHORT).show()
+        val mapButton = findViewById<ImageView>(R.id.map)
+        mapButton.setOnClickListener{
+            Toast.makeText(applicationContext, "Taking you to FERI map", Toast.LENGTH_SHORT).show()
+            val activity2Intent = Intent(applicationContext, MapActivity::class.java)
+            startActivity(activity2Intent)
         }
     }
 }
