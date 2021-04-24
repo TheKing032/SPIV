@@ -9,5 +9,7 @@ public class Main {
         HashMap<String,Classroom> classrooms = new HashMap<String, Classroom>();
         buildings.put("g3",new Building("G3","g3"));
         buildings.put("g2",new Building("G2","g2"));
+        //buildings.get("g2").addFloor("g2firstfloor","g2firstfloor");
+        //buildings.get("g2").addFloor("g2secondfloor","g2secondfloor"); //Tukaj sem probal da dodam nadstropje oz. ime slike iz drawable
     }
 }

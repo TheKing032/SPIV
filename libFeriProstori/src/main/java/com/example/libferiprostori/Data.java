@@ -36,6 +36,8 @@ public class Data {
         // Buildings
        data.buildings.put("g3", new Building("G3", "g3"));
        data.buildings.put("g2", new Building("G2", "g2"));
+       //getBuilding("g2").addFloor("g2firstfloor","g2firstfloor"); // Tudi tukaj sem probal da dodam nadstropja ker v aktivitiju kličem data class
+       //getBuilding("g2").addFloor("g2secondfloor","g2secondfloor");
         // Classrooms
         data.classrooms.put("g2-neki",new Classroom("G2 Neki kabinet", "g2-neki", "g2",1));
         data.classrooms.put("g3-neki",new Classroom("G3 Neki kabinet", "g3-neki", "g3",1));

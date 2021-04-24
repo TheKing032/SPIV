@@ -11,7 +11,7 @@
             android:theme="@style/AppTheme">
         <activity android:name=".activity_object_g2"></activity>
         <activity
-                android:name=".ShowBuliding"
+                android:name=".ObjectG3"
                 android:label="@string/title_activity_object_g3"
                 android:theme="@style/AppTheme.NoActionBar" />
         <activity
