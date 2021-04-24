@@ -6,6 +6,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,5 +18,7 @@ class MainActivity : AppCompatActivity() {
             val activity2Intent = Intent(applicationContext, MapActivity::class.java)
             startActivity(activity2Intent)
         }
+
+
     }
 }

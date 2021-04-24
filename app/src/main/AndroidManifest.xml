@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".ObjectG3"
+                android:name=".ShowBuliding"
                 android:label="@string/title_activity_object_g3"
                 android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
