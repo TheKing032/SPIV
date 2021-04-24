@@ -18,7 +18,7 @@ class MapActivity : AppCompatActivity() {
         val objG3 = findViewById<ImageView>(R.id.objektG3)
         objG3.setOnClickListener{
             Toast.makeText(applicationContext, "Taking you to Object G3", Toast.LENGTH_SHORT).show()
-            val activity2Intent = Intent(applicationContext, ObjectG3::class.java)
+            val activity2Intent = Intent(applicationContext, ShowBuliding::class.java)
             startActivity(activity2Intent)
         }
         val objG2 = findViewById<ImageView>(R.id.objektG2)
