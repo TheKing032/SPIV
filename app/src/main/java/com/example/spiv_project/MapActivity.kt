@@ -21,6 +21,12 @@ class MapActivity : AppCompatActivity() {
             val activity2Intent = Intent(applicationContext, ObjectG3::class.java)
             startActivity(activity2Intent)
         }
+        val objG2 = findViewById<ImageView>(R.id.objektG2)
+        objG2.setOnClickListener{
+            Toast.makeText(applicationContext, "Taking you to Object G2", Toast.LENGTH_SHORT).show()
+            val activity3Intent = Intent(applicationContext, ObjectG2::class.java)
+            startActivity(activity3Intent)
+        }
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

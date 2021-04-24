@@ -1,5 +1,4 @@
 package com.example.spiv_project
-
 import android.app.Activity
 import android.os.Bundle
 import android.view.MenuItem
@@ -10,18 +9,20 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_object_g3.*
 
-class ObjectG3 : AppCompatActivity(), AdapterView.OnItemSelectedListener {
+class ObjectG2:AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_object_g3)
         setSupportActionBar(findViewById(R.id.toolbar))
 
-        val dropdown:Spinner = findViewById(R.id.spinner01);
+        //val imgView:ImageView = findViewById(R.id.imageViewMain)
+        //imgView.setImageResource(R.drawable.g2groundfloor)
 
+        val dropdown:Spinner = findViewById(R.id.spinner01)
         ArrayAdapter.createFromResource(
             this,
-            R.array.floors3,
+            R.array.floorsG2,
             android.R.layout.simple_spinner_dropdown_item
         ).also { adapter -> adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
             dropdown.adapter = adapter
@@ -42,13 +43,17 @@ class ObjectG3 : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         val imgView:ImageView = findViewById(R.id.imageViewMain)
         //imgView.setImageResource(R.drawable.map)
         if (text == "Ground floor")
-            imgView.setImageResource(R.drawable.g3pritlicje)
-        else if(text == "Basement")
-            imgView.setImageResource(R.drawable.g3basement)
+            imgView.setImageResource(R.drawable.g2groundfloor)
         else if(text == "First floor")
-            imgView.setImageResource(R.drawable.g3firstfloor)
+            imgView.setImageResource(R.drawable.g2firstfloor)
+        else if(text == "Middle floor")
+            imgView.setImageResource(R.drawable.g2middlefloor)
         else if(text == "Second floor")
-            imgView.setImageResource(R.drawable.g3secondfloor)
+            imgView.setImageResource(R.drawable.g2secondfloor)
+        else if(text == "Third floor")
+            imgView.setImageResource(R.drawable.g2thirdfloor)
+        else if(text == "Fourth floor")
+            imgView.setImageResource(R.drawable.g2fourthfloor)
 
     }
 }
