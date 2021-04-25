@@ -24,4 +24,27 @@
         <item>Third floor</item>
         <item>Fourth floor</item>
     </string-array>
+    <string-array name="floorsG">
+        <item>Basement</item>
+        <item>First floor</item>
+        <item>Middle floor 1</item>
+        <item>Second floor</item>
+        <item>Middle floor 2</item>
+        <item>Third floor</item>
+        <item>Fourth floor</item>
+    </string-array>
+    <string-array name="floorsF">
+        <item>Basement</item>
+        <item>First floor</item>
+    </string-array>
+    <string-array name="floorsE">
+        <item>Basement</item>
+    </string-array>
+    <string-array name="floorsC">
+        <item>Basement</item>
+    </string-array>
+    <string name="title_activity_object_g">ObjectG</string>
+    <string name="title_activity_object_f">ObjectF</string>
+    <string name="title_activity_object_e">ObjectE</string>
+    <string name="title_activity_object_c">ObjectC</string>
 </resources>

@@ -9,7 +9,23 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".activity_object_g2"></activity>
+        <activity
+                android:name=".ObjectC"
+                android:label="@string/title_activity_object_c"
+                android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+                android:name=".ObjectE"
+                android:label="@string/title_activity_object_e"
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+                android:name=".ObjectF"
+                android:label="@string/title_activity_object_f"
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+                android:name=".ObjectG"
+                android:label="@string/title_activity_object_g"
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity_object_g2" />
         <activity
                 android:name=".ObjectG3"
                 android:label="@string/title_activity_object_g3"
